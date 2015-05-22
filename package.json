@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Json generator from multi small json file structure ",
   "main": "index.js",
+  "dependencies": {
+    "lodash": "^3.5.0",
+    "extend": "^2.0.0"
+  },
   "directories": {
     "test": "test"
   },
@@ -18,5 +22,6 @@
   "bugs": {
     "url": "https://github.com/baysao/deep-json/issues"
   },
+
   "homepage": "https://github.com/baysao/deep-json"
 }
