@@ -47,6 +47,10 @@ Example
 │   ├── SEO.json: {"description": "Fresh lemmons!" }
 │   ├── SEO (folder)
 │       ├── keywords.json: ["a", "big", "array"]
+│   ├── MYARRAY.json: [{"description": "Orange" }]
+│   ├── MYARRAY (folder)
+│       ├── newobj.json: {"detail":"my detail"}
+│       ├── keywords.json: ["a", "big", "array"]
 ```
 
 ```js
@@ -59,7 +63,12 @@ var defaultConfig = deepjson( 'config' );
     SEO: {
         description: 'Fresh lemmons!',
         keywords: ['a', 'big', 'array']
-    }
+    },
+    MYARRAY: [
+        {description: 'Fresh lemmons!'},
+        {"detail":"my detail"},
+        ['a', 'big', 'array']
+    ]
 } */
 
 
