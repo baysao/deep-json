@@ -1,30 +1,22 @@
 {
-  "name": "deepjson",
-  "version": "1.1.1",
-  "description": "A better way to load big json config files",
+  "name": "deep-json",
+  "version": "1.0.0",
+  "description": "Json generator from multi small json file structure ",
   "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
   "scripts": {
-    "test": "mocha"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:jacoborus/deep-json.git"
+    "url": "https://github.com/baysao/deep-json.git"
   },
-  "keywords": [
-    "JSON",
-    "config"
-  ],
-  "author": "Jacobo Tabernero -jacobo@xarope.eu",
-  "license": "MIT",
+  "author": "Vu Tran (baysao@gmail.com)",
+  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jacoborus/deep-json/issues"
+    "url": "https://github.com/baysao/deep-json/issues"
   },
-  "homepage": "http://deepjson.jacoborus.codes",
-  "devDependencies": {
-    "chai": "^2.0.0",
-    "mocha": "^2.0.1"
-  },
-  "dependencies": {
-    "extend": "^2.0.1"
-  }
+  "homepage": "https://github.com/baysao/deep-json"
 }
